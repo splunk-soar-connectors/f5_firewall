@@ -1,0 +1,18 @@
+{
+    "app_config": null,
+    "asset_id": "16",
+    "config": {
+               "device": "10.255.111.100",
+               "username": "admin",
+               "password": "redacted"
+    },
+    "debug_level": 3,
+    "identifier": "unblock ip",
+    "parameters": [
+        {
+            "partition": "Common",
+            "policy": "Phantom_Inbound",
+            "rule name": "sourceIP_8.8.8.8"
+        }
+    ]
+}

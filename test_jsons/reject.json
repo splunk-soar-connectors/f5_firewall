@@ -1,0 +1,20 @@
+{
+    "app_config": null,
+    "asset_id": "260",
+    "config": {
+               "device": "10.255.111.100",
+               "username": "admin",
+               "password": "redacted"
+    },
+    "debug_level": 3,
+    "identifier": "block ip",
+    "parameters": [
+        {
+            "partition": "Common",
+            "policy": "test_phantom_policy",
+            "source": "8.8.8.9",
+            "action": "reject",
+            "rule name": "sourceIP_8.8.8.9"
+        }
+    ]
+}
