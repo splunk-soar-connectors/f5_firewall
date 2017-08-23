@@ -3,7 +3,7 @@
     "name"      : "F5 BIG-IP",
     "description" : "This app supports containment actions like 'block ip' or 'unblock ip' on an F5 BIG-IP appliance. There must be a firewall policy (Security››Network Firewall:Policies) configured on the BIG-IP and the name of the policy must be specified in the Action Parameters. The rule name can be the source IP address appended to a keyword string, e.g. 'Phantom' + ip",
     "publisher": "World Wide Technology",
-    "package_name": "phantom_F5",
+    "package_name": "phantom_f5",
     "type": "firewall",
     "license": "Copyright (c) World Wide Technology, Inc. 2016-2017",
     "main_module" : "F5_connector.pyc",
